@@ -1,33 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
     <link rel="stylesheet" href="./assets/sorteio.css">
-    <title>Números do destino</title>
-</head>
-<body>
-    <!-- display flex -->
-    <header>
-        <!-- foto do dadinho, meu parceiro -->
-        <h1>Números do destino</h1>
-        <!-- background nos numeros do destino -->
-        <!-- uma coisa legal aqui só pra ficar maneiro -->
-    </header>
-<!-- display flex -->
-    <main>
-        <!-- imagem do cuphead no cassino hahahaha LUAN GAMEPLAYS  -->
-        <!-- box central -->
-        <section id="box"></section>
-        <!-- botão jogar -->
-    </main>
-    <!-- display grid nas caixinhas de palavras -->
-    <footer>
-<!-- adiciona qualquer coisa doida aqui só pra encher o site e ficar bonitinho -->
-    </footer>
-    <script src="sorteio.js"> 
     
-    </script>
+</head>
+
+<body>
+    <header>
+        <div class="flex-header">
+            <div class="flex-img">
+            </div>
+            <div class="logo-container">
+                <div class="text">
+                    <h1>Números do destino</h1>
+                </div>
+                <img src="./assets/img/logo.jpeg" alt="logotipo">  
+            </div>
+
+            <div class="btn-menu">
+                <img src="./assets/img/3listras.jpeg" alt="Imagem de apresentação">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="consoleOutput">
+            
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+    <footer>
+
+        <div class="grid-footer">
+            <div class="grid-ul">
+                <div class="item">
+                <ul>
+                    <li><b>Fale conosco</b></li>
+                    <li> <a href="#"> Informações corporativas </a> </li>
+                    <li> <a href="#"> Carreiras </a> </li>
+                    <li> <a href="#"> Comunicados à imprensa </a> </li>
+                    <li> <a href="#"> Comunidade </a> </li>
+                    <li> <a href="#"> Acessibilidade </a> </li>
+                </ul>
+             </div>
+            <div class="item">
+                <ul>
+                    <li><b>Institucional</b></li>
+                    <li> <a href="#"> Sobre nós </a> </li>
+                    <li> <a href="#"> Pilares </a> </li>
+                    <li> <a href="#"> Recursos Humanos </a> </li>
+                </ul>
+            </div>
+            <div class="item">
+                <ul>
+                    <li><b>Ouvidoria</b></li>
+                    <li> <a href="#"> Telefone </a> </li>
+                    <li> <a href="#"> E-mail </a> </li>
+                    <li> <a href="#"> WhatsApp </a> </li>
+                    <li> <a href="#"> Instagram </a> </li>
+                    <li> <a href="#"> Telegram </a> </li>
+                </ul>
+            </div>
+            
+            </div>
+            <div class="footersecundario">
+                <p>&copy; Todos os direitos reservados para os números do destino. Inscrito no CNPJ: 123.567.438/0009-91 </p>
+                <p>Avenida das oportunidades sociais, 3102, 2°Andar - São Paulo CEP: 05403-004</p>
+                <p>Fale conosco: (011) 97070 - 7070 | Email: contatosdosnúmeros@faleconosco.com</p>
+
+            </div>
+        
+    </footer>
 </body>
 </html>
